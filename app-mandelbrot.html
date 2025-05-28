@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjunto de Mandelbrot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style-arvore.css">
+</head>
+
+<body class="bg-gray-900 text-gray-200">
+
+    <div id="controlsContainer" class="mb-6 p-6 bg-gray-800 rounded-xl shadow-lg">
+        <div class="control-group">
+            <label for="iterationsSlider">Iterações: <span id="iterationsValue" class="slider-value-display">100</span></label>
+            <input type="range" id="iterationsSlider" min="50" max="1000" value="100" step="10">
+        </div>
+        <div class="control-group">
+            <label for="zoomInput">Zoom: <span id="zoomValue" class="slider-value-display">1.00</span></label>
+            <input type="number" id="zoomInput" value="1.0" step="0.1" min="0.1" class="text-center">
+        </div>
+         <div class="control-group">
+            <label for="colorSchemeSelect">Esquema de Cores</label>
+            <select id="colorSchemeSelect" class="bg-gray-700 border border-gray-600 rounded-md p-2 text-sm">
+                <option value="default">Padrão (Grayscale)</option>
+                <option value="smooth">Suave (Colorido)</option>
+                <option value="ultra">Ultra (Colorido)</option>
+                <option value="psych">Psicadélico</option>
+            </select>
+        </div>
+        <button id="renderButton" class="bg-blue-500 hover:bg-blue-600">Renderizar</button>
+        <button id="resetButton" class="bg-yellow-500 hover:bg-yellow-600">Resetar Zoom</button>
+    </div>
+    <div id="loadingIndicator">Renderizando... Por favor, aguarde.</div>
+
+    <canvas id="mandelbrotCanvas"></canvas>
+    <script src="js/script-mandelbrot.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "fractal-simulator",
+  "version": "1.0.0",
+  "description": "Um fractal é uma figura geométrica cujas partes, quando observadas em diferentes escalas, apresentam a mesma estrutura do todo. Essa característica é conhecida como auto-semelhança, ou seja, cada parte do fractal é uma miniatura do todo. A palavra \"fractal\" vem do latim \"fractus\", que significa \"quebrado\" ou \"fraccionado\", indicando a estrutura irregular e fragmentada desses objetos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

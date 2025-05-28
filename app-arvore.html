@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Árvore Fractal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style-arvore.css">
+</head>
+
+<body class="bg-sky-100">
+
+    <div id="controlsContainer" class="mb-6 p-6 bg-white rounded-xl shadow-lg">
+        <div class="control-group">
+            <label for="angleSlider">Ângulo (°) : <span id="angleValue" class="slider-value">30</span></label>
+            <input type="range" id="angleSlider" min="5" max="60" value="30" class="w-full">
+        </div>
+        <div class="control-group">
+            <label for="depthSlider">Profundidade: <span id="depthValue" class="slider-value">9</span></label>
+            <input type="range" id="depthSlider" min="1" max="12" value="9" class="w-full">
+        </div>
+        <div class="control-group">
+            <label for="lengthFactorSlider">Fator Compr.: <span id="lengthFactorValue"
+                    class="slider-value">0.75</span></label>
+            <input type="range" id="lengthFactorSlider" min="0.5" max="0.9" value="0.75" step="0.01" class="w-full">
+        </div>
+        <div class="control-group">
+            <label for="lineWidthSlider">Largura Inicial: <span id="lineWidthValue"
+                    class="slider-value">10</span></label>
+            <input type="range" id="lineWidthSlider" min="1" max="20" value="10" class="w-full">
+        </div>
+        <div class="control-group">
+            <label for="branchColorPicker">Cor dos Galhos</label>
+            <input type="color" id="branchColorPicker" value="#5D4037">
+        </div>
+        <div class="control-group">
+            <label for="leafColorPicker">Cor das Folhas</label>
+            <input type="color" id="leafColorPicker" value="#4CAF50">
+        </div>
+        <button id="generateButton"
+            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg shadow">Gerar Nova
+            Árvore</button>
+    </div>
+
+    <canvas id="treeCanvas"></canvas>
+    <script src="js/script-arvore.js"></script>
+</body>
+
+</html>
