@@ -55,7 +55,7 @@ Se o valor absoluto de **z** permanecer pequeno (normalmente abaixo de 2) após 
 Um slider para definir o número máximo de iterações para o cálculo. Mais iterações resultam em mais detalhes, mas levam mais tempo para renderizar.
 
 ***Zoom***
-Cmpo numérico para definir o nível de zoom. O limite máximo da ampliação é de 140.737.488.355.328 (cento e quarenta trilhões, setecentos e trinta e sete bilhões, quatrocentos e oitenta e oito milhões, trezentos e cinquenta e cinco mil, trezentos e vinte e oito) vezes a imagem do vetor inicial.
+Cmpo numérico para definir o nível de zoom. O limite máximo da ampliação é de **140.737.488.355.328** (cento e quarenta trilhões, setecentos e trinta e sete bilhões, quatrocentos e oitenta e oito milhões, trezentos e cinquenta e cinco mil, trezentos e vinte e oito) vezes a imagem do vetor inicial.
 
 ***Esquema de Cores***
 Seleção para diferentes aparências visuais.
