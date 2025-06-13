@@ -55,16 +55,16 @@ Se o valor absoluto de **z** permanecer pequeno (normalmente abaixo de 2) após 
 Um slider para definir o número máximo de iterações para o cálculo. Mais iterações resultam em mais detalhes, mas levam mais tempo para renderizar.
 
 ***Zoom***
-Um campo numérico para definir o nível de zoom.
+Cmpo numérico para definir o nível de zoom. O limite máximo da ampliação é de 140.737.488.355.328 (cento e quarenta trilhões, setecentos e trinta e sete bilhões, quatrocentos e oitenta e oito milhões, trezentos e cinquenta e cinco mil, trezentos e vinte e oito) vezes a imagem do vetor inicial.
 
 ***Esquema de Cores***
-Uma seleção para diferentes aparências visuais.
+Seleção para diferentes aparências visuais.
 
 ***Botão "Renderizar"***
-Para aplicar as alterações de iterações e zoom.
+Aplica alterações de iterações e zoom.
 
 ***Botão "Resetar Zoom"***
-Para voltar à visualização inicial.
+Volta à visualização inicial.
 
 ***Funcionalidade de Zoom***
 Clicar no canvas irá dar zoom no ponto clicado, recentralizando a visualização.
